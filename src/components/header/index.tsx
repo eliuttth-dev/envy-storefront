@@ -33,7 +33,7 @@ const Header = ({ menuIsActive, toggleMenu }) => {
               <p className="suscribe-title">10% OFF YOUR FIRST ORDER</p>
               <p className="suscribe-desc">
                 ENVY-CLUB suscribes receive 10% off their first order <br />
-                and early access to new drops. <span>Privacy Policy</span>
+                and early access to new drops. <span className="suscribe-decorator">Privacy Policy</span>
               </p>
               <button>Suscribe</button>
             </div>
