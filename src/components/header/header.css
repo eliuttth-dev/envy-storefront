@@ -1,0 +1,85 @@
+header{
+    font-family: "Montserrat", serif;
+    font-weight: bold;
+    width: 100;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--primary-black);
+}
+header > h1 {
+    letter-spacing: 10px;
+}
+header > button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    &:hover{
+        cursor: pointer;
+    }
+}
+nav{
+    left: 0;
+    height: 100%;
+    padding: 0 15px;
+    background-color: var(--primary-white);
+    display: flex;
+    align-items: center;
+}
+nav > ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 42px;
+}
+nav > ul li {
+    cursor: pointer;
+    width: 100%;
+    padding: 30px 0;
+    &:hover{
+        color: var(--primary-white); 
+        background-color: var(--primary-black);
+    }
+}
+nav > .nav-aside{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: end;
+    border-left: 1px solid var(--primary-black);
+    padding: 15px;
+    font-family: "Montserrat", serif;
+    font-weight: bold;
+    font-size: 32px;
+    gap: 100px;
+}
+nav > .nav-aside > div > .suscribe-title{
+    font-size: 24px;
+}
+nav > .nav-aside > div > .suscribe-desc{
+    font-size: 14px;
+    font-weight: 600;
+}
+nav > .nav-aside > div > button{
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 0px;
+    border: 1px solid var(--primary-black);
+    background-color: var(--primary-black);
+    color: var(--primary-white);
+    &:hover{
+        background-color: transparent;
+        color: var(--primary-black);
+        cursor: pointer;
+    }
+
+}

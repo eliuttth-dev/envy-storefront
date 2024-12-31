@@ -1,0 +1,38 @@
+/* External Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Import Components */
+@import "./variables.css";
+@import "./components/header/header.css";
+@import "./components/footer/footer.css";
+
+/* General Styles */
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    width: 100%;
+}
+main{
+    flex: 1;
+}
